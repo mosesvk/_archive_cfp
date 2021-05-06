@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-// import {Link} from 'react-scroll'
-import {
-  Nav,
-  NavbarContainer,
-  NavLogo,
-  MobileIcon,
-  NavMenu,
-  NavItem,
-  NavLinks,
-} from "./NavbarElements";
+import { Link as LinkS } from 'react-scroll'
+import './Navbar.scss'
 
 const Navbar = (props) => {
   const { toggle } = props;
@@ -35,17 +27,18 @@ const Navbar = (props) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
-          <NavLogo to="home" onClick={toggleHome} scrollNav={scrollNav}>
-            &lt; Moses K &gt;
-          </NavLogo>
-          <MobileIcon onClick={toggle}>
+      <div scrollNav={scrollNav} className='nav'>
+        <div className='nav-wrap'>
+          {/* <NavLogo to="home" onClick={toggleHome} scrollNav={scrollNav}>
+            CHEEFAS FRIED PIES
+          </NavLogo> */}
+          <div onClick={toggle} className='nav-mobile'>
             <FaBars />
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks
+          </div>
+          <div className='nav-menu'>
+            <div className='nav-item'>
+              <LinkS
+                className='nav-link'
                 to="display"
                 smooth={true}
                 duration={750}
@@ -54,11 +47,12 @@ const Navbar = (props) => {
                 offset={-80}
                 delay={100}
               >
-                MENU
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
+                FLAVORS
+              </LinkS>
+            </div>
+            <div className='nav-item'>
+              <LinkS
+                className='nav-link'
                 to="experience"
                 smooth={true}
                 duration={750}
@@ -67,11 +61,12 @@ const Navbar = (props) => {
                 offset={-80}
                 delay={100}
               >
-                EXPERIENCE
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
+                PICKUP
+              </LinkS>
+            </div>
+            <div className='nav-item'>
+              <LinkS
+                className='nav-link'
                 to="about"
                 smooth={true}
                 duration={750}
@@ -80,10 +75,11 @@ const Navbar = (props) => {
                 offset={-80}
               >
                 ABOUT
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
+              </LinkS>
+            </div>
+            <div className='nav-item'>
+              <LinkS
+                className='nav-link'
                 to="contact"
                 smooth={true}
                 duration={750}
@@ -92,11 +88,16 @@ const Navbar = (props) => {
                 offset={-80}
               >
                 CONTACT
-              </NavLinks>
-            </NavItem>
-          </NavMenu>
-        </NavbarContainer>
-      </Nav>
+              </LinkS>
+            </div>
+          </div>
+          <div className='nav-order'>
+            <a href='https://formfaca.de/sm/WPdC5Gw9f' target='_blank' rel="noreferrer" >
+              <button>ORDER NOW</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

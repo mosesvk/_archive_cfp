@@ -56,8 +56,8 @@ const Display = () => {
   return (
     <div className='program-container' id='display'>
       <div className='program-header'>
-        <h1>PORTFOLIO</h1>
-        <p>Check out my Github for other projects I've worked on.</p>
+        <h1>FLAVORS</h1>
+        <p>SEE ALL OF OUR SPECIAL FRIED PIE FLAVORS</p>
         <Divider/>
         <SocialWrap>
           <SocialLink

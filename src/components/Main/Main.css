@@ -2,7 +2,7 @@
 import ImgBg from '../../images/CFP-cover.jpg'; */
 
 .MainContainer {
-  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url('../../images/CFP-cover.jpg') ;
+  background: linear-gradient(to right, rgba(248, 242, 242, 0.863), rgba(0,0,0,0.1)), url('../../images/CFP-cover.jpg') ;
   height: 100vh;
   background-position: center;
   background-size: cover;

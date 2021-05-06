@@ -7,7 +7,7 @@ import './Main.css'
 const Main = () => {
   return (
     <div className="MainContainer">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="MainContent">
         <div className="MainItems">
           <img src={mainImg} className="MainImg" alt="main-img"/>
