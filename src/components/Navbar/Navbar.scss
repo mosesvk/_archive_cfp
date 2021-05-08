@@ -7,6 +7,7 @@
 }
 
 .nav {
+  font-family: 'Quicksand', sans-serif;
   background: white;
   height: 90px;
   margin-top: -80px; 
@@ -83,6 +84,7 @@
           background: $pink;
           border: none;
           padding: 12px;
+          border-radius: 10px;
           &:hover {
             background: #ec5656;
             transition: 1s;
