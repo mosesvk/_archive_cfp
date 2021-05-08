@@ -1,5 +1,11 @@
 @import '../../_variables';
 
+.nav-top-bar {
+  height: 50px;
+  background: $pink;
+  position: fixed;
+}
+
 .nav {
   background: white;
   height: 90px;
@@ -15,7 +21,7 @@
 
   .nav-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 65px;
     z-index: 1;
     width: 100%;
@@ -59,7 +65,7 @@
           letter-spacing: 3px;
 
           &:hover {
-            color: $pink;
+            color: $gold;
           }
         }
       }
@@ -67,6 +73,22 @@
 
     .nav-order {
       padding-right: 25px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+      a {
+
+        button {
+          background: $pink;
+          border: none;
+          padding: 12px;
+          &:hover {
+            background: #ec5656;
+            transition: 1s;
+          }
+        }
+      }
     }
   }
 }

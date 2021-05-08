@@ -27,6 +27,7 @@ const Navbar = (props) => {
 
   return (
     <>
+      <div className='nav-top-bar'></div>
       <div scrollNav={scrollNav} className='nav'>
         <div className='nav-wrap'>
           {/* <NavLogo to="home" onClick={toggleHome} scrollNav={scrollNav}>
