@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import {Link} from 'react-scroll'
 import mainImg from '../../images/cfp-cover-1.jpg'
-import './Main.css'
+import './Main.scss'
 
 
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
       <div className="MainContent">
         <div className="MainItems">
           <img src={mainImg} className="MainImg" alt="main-img"/>
-          <p className="MainP">Have a Taste of the Glory</p>
+          <p className="MainP">For Your Sweet Cravings</p>
           <Link
             className='nav-link'
             to="display"
@@ -21,7 +21,7 @@ const Main = () => {
             spy={true}
             exact="true"
             offset={-80}
-            delay={100}
+            // delay={50}
           ><button className="MainBtn">CHECK IT OUT</button></Link>
         </div>
       </div>
