@@ -66,7 +66,7 @@ const Navbar = (props) => {
               <div className='nav-item'>
                 <LinkS
                   className='nav-link'
-                  to="experience"
+                  to="pickup"
                   smooth={true}
                   duration={750}
                   spy={true}
