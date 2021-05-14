@@ -11,7 +11,7 @@
   display: flexbox;
   background: white;
   // height: 90px;
-  margin-top: -80px; 
+  // margin-top: -40px; 
   // display: flex;
   // flex-direction: row;
   // justify-content: flex-end;
@@ -33,16 +33,14 @@
     align-items: center;
 
     .nav-mobile {
-      display: none;
-      @media screen and (max-width: $tablet) {
-        display: block; 
-        position: absolute;
-        top: 0; 
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: black;
+      display: block; 
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: black;
+      width: 100%;
+      text-align: right;
+      @media screen and (min-width: $tablet) {
+        display: none
       }
     }
 
@@ -99,10 +97,14 @@
     }
 
     .nav-order {
-      padding-right: 25px;
-      display: flex;
-      height: 100%;
-      align-items: center;
+      display: none;
+
+      @media (min-width: $tablet){
+        padding-right: 25px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+      }
 
       a {
 

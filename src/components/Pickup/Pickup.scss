@@ -33,12 +33,16 @@
 
     .pickup-div {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       width: 100%;
 
       .map {
         // text-align: center;
         // width: 60%;
+
+        iframe {
+          width: 100%;
+        }
       }
     }
   }
