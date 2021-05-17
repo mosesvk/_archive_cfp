@@ -14,7 +14,7 @@ const Sidebar = (props) => {
           <FaTimes className='close-icon'/>
         </div>
         <div className='sidebar-wrap'>
-          <div className=''>
+          <div className='sidebar-Links'>
 
           </div>
         </div>
