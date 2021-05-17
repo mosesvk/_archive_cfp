@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  SidebarContainer,
-  Icon,
-  CloseIcon,
-  SidebarRoute,
-  SideBtnWrap,
-  SidebarTotal,
-} from "./SidebarElement";
-import SidebarItem from './SidebarItem'
+import {SidebarContainer} from "./SidebarContainer";
+import {FaTimes} from 'react-icons/fa';
+import './Sidebar.scss'
 
 const Sidebar = (props) => {
   // console.log(cart)
@@ -16,18 +10,14 @@ const Sidebar = (props) => {
 
     return (
       <SidebarContainer isOpen={isOpen}>
-        <Icon onClick={toggle}>
-          <CloseIcon />
-        </Icon>
-        {cart.map((prod, index) => {
-          return (
-            <SidebarItem prod={prod} removeItem={removeItem} editItem={editItem}/>
-          )
-        })}
-        <SideBtnWrap>
-          <SidebarTotal>Total: ${total}</SidebarTotal>
-          <SidebarRoute to="/" onClick={clearCart}>Order Now</SidebarRoute>
-        </SideBtnWrap>
+        <div className='close-div' onClick={toggle}>
+          <FaTimes className='close-icon'/>
+        </div>
+        <div className='sidebar-wrap'>
+          <div className=''>
+
+          </div>
+        </div>
       </SidebarContainer>
     );
 };

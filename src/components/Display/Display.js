@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../../images/CFP-counter.jpg'
+import imgLL from '../../images/L&L-logo.png'
 import './Display.scss'
 
 const Display = () => {
@@ -8,6 +9,7 @@ const Display = () => {
       <div className='display-wrap-top'>
         <div className='display-text-div'>
           <h1>AT YOUR NEAREST L&L's</h1>
+          <img src={imgLL}/>
         </div>
         <div className='display-img-div'>
           <img src={img1}/>
