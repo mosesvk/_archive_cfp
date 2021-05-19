@@ -60,7 +60,7 @@ const Navbar = (props) => {
                   offset={-80}
                   delay={100}
                 >
-                  FLAVORS
+                  DISPLAY
                 </LinkS>
               </div>
               <div className='nav-item'>

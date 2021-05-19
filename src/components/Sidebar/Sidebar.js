@@ -30,26 +30,26 @@ const Sidebar = (props) => {
           <div className='sidebar-links'>
             <Link
               className='nav-link'
-              to="pickup"
-              smooth={true}
+              to="display"
+              // smooth={true}
               duration={750}
               spy={true}
               exact="true"
               offset={-80}
-              delay={30}
+              // delay={30}
               onClick={toggle}
             >
-            FLAVORS
+            DISPLAY
             </Link>
             <Link
               className='nav-link'
               to="pickup"
-              smooth={true}
+              // smooth={true}
               duration={750}
               spy={true}
               exact="true"
               offset={-80}
-              delay={30}
+              // delay={30}
               onClick={toggle}
             >
             PICKUP
@@ -57,12 +57,12 @@ const Sidebar = (props) => {
             <Link
               className='nav-link'
               to="about"
-              smooth={true}
+              // smooth={true}
               duration={750}
               spy={true}
               exact="true"
               offset={-80}
-              delay={30}
+              // delay={30}
               onClick={toggle}
             >
             ABOUT
@@ -70,12 +70,12 @@ const Sidebar = (props) => {
             <Link
               className='nav-link'
               to="contact"
-              smooth={true}
+              // smooth={true}
               duration={750}
               spy={true}
               exact="true"
               offset={-80}
-              delay={30}
+              // delay={30}
               onClick={toggle}
             >
             CONTACT
