@@ -1,6 +1,13 @@
 import React from "react";
 import {SidebarContainer} from "./SidebarContainer";
-import {FaTimes} from 'react-icons/fa';
+import {
+  FaTimes,
+  FaTwitter,
+  FaInstagram, 
+  FaFacebookF
+} from "react-icons/fa";
+import {Link} from 'react-scroll'
+import imgLogo from '../../images/cfp-cover-1.jpg'
 import './Sidebar.scss'
 
 const Sidebar = (props) => {
@@ -10,12 +17,74 @@ const Sidebar = (props) => {
 
     return (
       <SidebarContainer isOpen={isOpen}>
-        <div className='close-div' onClick={toggle}>
+        <div className='sidebar-top-div' onClick={toggle}>
+          <Link
+            to='main'
+            onClick={toggle}
+          ><img src={imgLogo} alt='cfpLogo'/></Link>
           <FaTimes className='close-icon'/>
         </div>
         <div className='sidebar-wrap'>
-          <div className='sidebar-Links'>
-
+          <div className='sidebar-logo'>
+          </div>
+          <div className='sidebar-links'>
+            <Link
+              className='nav-link'
+              to="pickup"
+              smooth={true}
+              duration={750}
+              spy={true}
+              exact="true"
+              offset={-80}
+              delay={30}
+              onClick={toggle}
+            >
+            FLAVORS
+            </Link>
+            <Link
+              className='nav-link'
+              to="pickup"
+              smooth={true}
+              duration={750}
+              spy={true}
+              exact="true"
+              offset={-80}
+              delay={30}
+              onClick={toggle}
+            >
+            PICKUP
+            </Link>
+            <Link
+              className='nav-link'
+              to="about"
+              smooth={true}
+              duration={750}
+              spy={true}
+              exact="true"
+              offset={-80}
+              delay={30}
+              onClick={toggle}
+            >
+            ABOUT
+            </Link>
+            <Link
+              className='nav-link'
+              to="contact"
+              smooth={true}
+              duration={750}
+              spy={true}
+              exact="true"
+              offset={-80}
+              delay={30}
+              onClick={toggle}
+            >
+            CONTACT
+            </Link>
+          </div>
+          <div className='sidebar-social'>
+            <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaFacebookF/></a>
+            <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaTwitter/></a>
+            <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaInstagram/></a>
           </div>
         </div>
       </SidebarContainer>

@@ -7,7 +7,7 @@ import './Main.scss'
 
 const Main = () => {
   return (
-    <div className="MainContainer">
+    <div className="MainContainer" id="main">
       {/* <Navbar /> */}
       <div className="MainContent">
         <div className="MainItems">
