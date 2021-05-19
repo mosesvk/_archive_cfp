@@ -16,7 +16,7 @@ const Main = () => {
           <Link
             className='nav-link'
             to="display"
-            smooth={true}
+            // smooth={true}
             duration={750}
             spy={true}
             exact="true"

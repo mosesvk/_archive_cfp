@@ -31,7 +31,7 @@
       }
 
       img {
-        width: 150px;
+        width: 140px;
         height: 150px;
         border-radius: 25px;
         margin: 0 10px;
@@ -47,7 +47,7 @@
     justify-content: center;
     text-align: center;
 
-    div {
+    .mid-wrapper {
       background: #00000082;
       height: auto;
       width: 100%;
@@ -55,7 +55,7 @@
       padding: 50px 0;
 
       h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 700;
       }
 
@@ -74,8 +74,61 @@
         color: $pink;
       }
 
-      .google {
-        font-size: 4rem;
+      #google-review-wrapper{
+        margin: 25px 0 25px;
+        // width: 240px;
+        border: none;
+        // background-color: #00a680;
+        background-image: none;
+        overflow: hidden;
+        height: auto;
+        position: relative;
+      }
+      .google-review-wrapper-with-border{
+        margin: 0;
+        padding: 13px 11px;
+        // background-color: #FFF;
+        background-image: none;
+        border: 1px solid white;
+        background: #07070799
+      }
+      .google-review-logo{
+          margin: 3px 0 3px;
+          padding: 0 0 8px;
+          overflow: hidden;
+          border-bottom: 1px solid white;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          background-image: none;
+          // width: 240px;
+          margin: 0 auto!important;
+      }
+      .google-review-logo img{
+            width: 121px;
+          margin:0 auto;
+      }
+      .google-review-text{
+        padding: 10px 0 8px 0;
+        color: white;
+        line-height: normal;
+        font-weight: bold;
+        // width: 120px;
+        margin:0 auto;
+        font-size: 1.5rem
+      }
+      .google-review-btn input{
+        padding: 0 10px;
+        border: none;
+        background: #EF6945;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        color: #FFF;
+        vertical-align: center;
+        width: auto;
+        height: 27px;
+        // position: relative;
       }
     }
 
