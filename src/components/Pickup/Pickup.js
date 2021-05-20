@@ -1,5 +1,5 @@
 import React from 'react'
-import park1 from '../../images/parking-l&l.jpeg'
+import park1 from '../../images/cfp-street.jpg'
 import './Pickup.scss'
 
 const Pickup = () => {
@@ -11,7 +11,13 @@ const Pickup = () => {
           <p>Checkout the different delivery spots</p>
         </div>
           <div className='pickup-div'>
-            <img src={park1}/>
+            <a
+              href='https://www.google.com/maps/uv?pb=!1s0x874d90a145dbcee5%3A0xd5559b46261dd429!3m1!7e115!4s%2Fmaps%2Fplace%2Fl%2526l%2Bmap%2Bprovo%2F%4040.2508331%2C-111.6612876%2C3a%2C75y%2C2.76h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sDpFMMjI07UMq9fhJBPOyog*212e0*214m2*213m1*211s0x874d90a145dbcee5%3A0xd5559b46261dd429%3Fsa%3DX!5sl%26l%20map%20provo%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2sDpFMMjI07UMq9fhJBPOyog&hl=en&sa=X&ved=2ahUKEwiRutPOm9fwAhXYGTQIHZ4aDVkQpx8wE3oECFcQCA'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={park1}/>
+            </a>
             <div className="map">
               <iframe
                 title="iframe"

@@ -4,7 +4,7 @@ import {
   FaTimes,
   FaTwitter,
   FaInstagram, 
-  FaFacebookF
+  FaFacebookSquare
 } from "react-icons/fa";
 import {Link} from 'react-scroll'
 import imgLogo from '../../images/cfp-cover-1.jpg'
@@ -82,7 +82,7 @@ const Sidebar = (props) => {
             </Link>
           </div>
           <div className='sidebar-social'>
-            <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaFacebookF/></a>
+            <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaFacebookSquare/></a>
             <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaTwitter/></a>
             <a href='http://facebook.com/cheefasfriedpies' target='_blank' rel="noreferrer"><FaInstagram/></a>
           </div>

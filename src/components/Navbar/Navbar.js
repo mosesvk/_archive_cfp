@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import {
   FaBars,
-  FaFacebookF,
+  FaFacebookSquare,
   FaTwitter,
   FaInstagram
 } from "react-icons/fa";
@@ -44,7 +44,7 @@ const Navbar = (props) => {
           </div>
           <div className='nav-menu'>
             <div className='nav-menu-top'>
-              <a href='http://facebook.com/cheefasfriedpies' target='_blank'><FaFacebookF/></a>
+              <a href='http://facebook.com/cheefasfriedpies' target='_blank'><FaFacebookSquare/></a>
               <a href='http://facebook.com/cheefasfriedpies' target='_blank'><FaTwitter/></a>
               <a href='http://facebook.com/cheefasfriedpies' target='_blank'><FaInstagram/></a>
             </div>

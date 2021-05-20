@@ -103,11 +103,13 @@
           background-image: none;
           // width: 240px;
           margin: 0 auto!important;
-      }
-      .google-review-logo img{
+
+          a {
             width: 121px;
-          margin:0 auto;
+            margin:0 auto;
+          }
       }
+
       .google-review-text{
         padding: 10px 0 8px 0;
         color: white;
@@ -117,18 +119,17 @@
         margin:0 auto;
         font-size: 1.5rem
       }
-      .google-review-btn input{
-        padding: 0 10px;
-        border: none;
-        background: #EF6945;
-        cursor: pointer;
-        text-decoration: none;
-        outline: none;
-        color: #FFF;
-        vertical-align: center;
-        width: auto;
-        height: 27px;
-        // position: relative;
+      
+      .google-review-btn {
+        margin: 15px 0; 
+
+        .review-button {
+          background: blue;
+          padding: 10px;
+          border-radius: 10px;
+          color: white;
+          font-weight: 700;
+        }
       }
     }
 
