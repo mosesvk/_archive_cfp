@@ -2,14 +2,15 @@
 
 .display-container {
   // height: 100vh;
-  font-family: 'Montserrat', sans-serif;;
-  background: linear-gradient(to right, rgb(155, 120, 120), $pink);
+  font-family: 'Montserrat', sans-serif;
+
   .display-wrap-top {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px 0 10px;
     text-align: center;
+    background: linear-gradient(to right, $blue, $pink);
 
     .display-img-div {
       display: flex;
@@ -47,8 +48,8 @@
           background: $blue;
 
           &:hover {
-            background: $yellow;
-            transition: 2s;
+            background: $pink;
+            transition: 1s;
           }
         }
       }

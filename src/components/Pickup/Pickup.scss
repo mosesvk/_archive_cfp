@@ -6,7 +6,7 @@
 
     .pickup-header {
       text-align: center;
-      padding-top: 4rem;
+      padding: 4rem 0 1rem;
       background: url('https://cdn4.vectorstock.com/i/1000x1000/79/23/car-delivery-logo-vector-20897923.jpg') center;
       background-size: cover;
 
@@ -40,6 +40,7 @@
       width: 100%;
       justify-content: center;
       align-items: center;
+      margin: 1rem 0;
 
       .map {
         // text-align: center;
