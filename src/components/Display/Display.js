@@ -8,9 +8,15 @@ const Display = () => {
     <div className='display-container' id='display'>
       <div className='display-wrap-top'>
         <div className='display-text-div'>
-          <h1>AT YOUR NEAREST L&L's</h1>
-          <img src={imgLL}/>
-          <img src={img1}/>
+          <h1>CHECKOUT THIS WEEK'S FLAVORS</h1>
+          <a
+            href='https://formfaca.de/sm/WPdC5Gw9f'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button>ORDER HERE</button>
+          </a>
+          {/* <img src={img1}/> */}
         </div>
         <div className='display-img-div'>
         </div>

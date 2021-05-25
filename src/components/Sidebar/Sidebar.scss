@@ -38,6 +38,24 @@
   .sidebar-links {
     width: 100%;
     text-align: center;
+
+    div {
+      width: 100%;
+      background: $pink;
+
+      &:hover {
+        background: rgb(209, 94, 94);
+        transition: .5s;
+      }
+
+      .order-a {
+        width: 100%;    
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
     
     .nav-link {
       font-size: 2.25rem;

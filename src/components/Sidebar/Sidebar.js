@@ -28,6 +28,16 @@ const Sidebar = (props) => {
           <div className='sidebar-logo'>
           </div>
           <div className='sidebar-links'>
+            <div>
+              <a
+              className='order-a'
+              href='https://formfaca.de/sm/WPdC5Gw9f'
+              target='_blank'
+              rel='noreferrer'
+              >
+              ORDER HERE
+              </a>
+            </div>
             <Link
               className='nav-link'
               to="display"

@@ -3,7 +3,7 @@
 .display-container {
   // height: 100vh;
   font-family: 'Montserrat', sans-serif;;
-
+  background: linear-gradient(to right, rgb(155, 120, 120), $pink);
   .display-wrap-top {
     width: 100%;
     display: flex;
@@ -27,7 +27,7 @@
       h1 {
         font-size: 2rem;
         font-weight: 700;
-        color: #cf2740;
+        color: white;
       }
 
       img {
@@ -35,6 +35,22 @@
         height: 150px;
         border-radius: 25px;
         margin: 0 10px;
+      }
+
+      a {
+
+        button {
+          border-radius: 5px;
+          padding: 10px;
+          font-size: 1.5rem;
+          font-weight: 700;
+          background: $blue;
+
+          &:hover {
+            background: $yellow;
+            transition: 2s;
+          }
+        }
       }
     }
   }
