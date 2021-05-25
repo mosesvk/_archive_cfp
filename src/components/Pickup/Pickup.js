@@ -1,6 +1,8 @@
 import React from 'react'
 // import park1 from '../../images/cfp-street.jpg'
 import imgLL from '../../images/L&L-logo.png'
+import imgMacey from '../../images/macey-logo.jpg'
+import imgScheel from '../../images/scheels-logo.png'
 import './Pickup.scss'
 
 const Pickup = () => {
@@ -44,10 +46,24 @@ const Pickup = () => {
                 // height="350"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2757.949249778123!2d-111.83961129363738!3d40.38672901188021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d81c91fca62d1%3A0x168165e337a6dff4!2sMacey&#39;s!5e0!3m2!1sen!2sus!4v1620795427109!5m2!1sen!2sus" 
               ></iframe>
+              <a
+                href='https://www.google.com/maps/@40.3868996,-111.8373508,3a,75y,170.38h,83.73t/data=!3m6!1e1!3m4!1syBHqVskdicigKGior4s7DQ!2e0!7i13312!8i6656'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={imgMacey}/>
+              </a>
             </div>
           </div>
           <div className='pickup-div'>
             <div className="map">
+              <a
+                href='https://www.google.com/maps/@40.546101,-111.8930985,3a,75y,286.28h,97.84t/data=!3m7!1e1!3m5!1sywHYVXcSHpCDv1UyJ9SvDg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DywHYVXcSHpCDv1UyJ9SvDg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D200.6988%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={imgScheel}/>
+              </a>
               <iframe
                 title="iframe"
                 frameborder="0"
