@@ -7,28 +7,19 @@ import {
   SocialWrap,
   SocialLink
 } from '../Display/displayElements'
-import {
-  AboutContainer,
-  AboutHeader,
-  AboutHeaderText,
-  AboutHeaderP,
-  AboutWrap,
-  AboutText,
-  ImgWrap,
-  Img
-} from './AboutElements'
 import Divider from '@material-ui/core/Divider';
 import imgFam from '../../images/family-1.JPG'
+import './About.scss'
 
 const About = () => {
 
 
   return (
     <>
-      <AboutContainer id="about">
-        <AboutHeader>
-          <AboutHeaderText>WHO IS MOSES?</AboutHeaderText>
-          <AboutHeaderP>Kaumatule  (cow - mah - too - leh)</AboutHeaderP>
+      <div className='about-container' id="about">
+        <div className='about-header'>
+          <h1>ABOUT US</h1>
+          <p>Feel free to check out our social media platforms</p>
           <Divider variant="middle"/>
           <SocialWrap>
             <SocialLink
@@ -44,9 +35,9 @@ const About = () => {
               <FaFacebookSquare />
             </SocialLink>
           </SocialWrap>
-        </AboutHeader>
-        <AboutWrap>
-          <AboutText>
+        </div>
+        <div className='about-wrap'>
+          <div className='about-text'>
             <p>Born in California, Raised in Utah.
             I love being with my family.
             I enjoy playing piano and watching Marvel movies. </p>
@@ -54,13 +45,13 @@ const About = () => {
             <p>I enjoy learning new ways to build meaningful projects that uplift and improve the lives of people and businesses. </p>
             <br/>
             <p>I would love to get to know more about you as well. Feel free to reach out to me below.</p>
-          </AboutText>
-          <ImgWrap>
-            <Img src={imgFam}/>
+          </div>
+          <div className='img-wrap'>
+            <img src={imgFam} alt='img-about'/>
             {/* <Img /> */}
-          </ImgWrap>
-        </AboutWrap>
-      </AboutContainer>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

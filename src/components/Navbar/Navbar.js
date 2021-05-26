@@ -39,6 +39,9 @@ const Navbar = (props) => {
           {/* <NavLogo to="home" onClick={toggleHome} scrollNav={scrollNav}>
             CHEEFAS FRIED PIES
           </NavLogo> */}
+          <div className='nav-logo'>
+            <h1 onClick={toggleHome}>Cheefa's Pies</h1>
+          </div>
           <div onClick={toggle} className='nav-mobile'>
             <FaBars />
           </div>
@@ -53,12 +56,7 @@ const Navbar = (props) => {
                 <LinkS
                   className='nav-link'
                   to="display"
-                  smooth={true}
-                  duration={750}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                  delay={100}
+                  offset={-100}
                 >
                   DISPLAY
                 </LinkS>
@@ -67,12 +65,7 @@ const Navbar = (props) => {
                 <LinkS
                   className='nav-link'
                   to="pickup"
-                  smooth={true}
-                  duration={750}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                  delay={100}
+                  offset={-100}
                 >
                   PICKUP
                 </LinkS>
@@ -81,11 +74,7 @@ const Navbar = (props) => {
                 <LinkS
                   className='nav-link'
                   to="about"
-                  smooth={true}
-                  duration={750}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+                  offset={-100}
                 >
                   ABOUT
                 </LinkS>
@@ -94,11 +83,7 @@ const Navbar = (props) => {
                 <LinkS
                   className='nav-link'
                   to="contact"
-                  smooth={true}
-                  duration={750}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
+                  offset={-100}
                 >
                   CONTACT
                 </LinkS>

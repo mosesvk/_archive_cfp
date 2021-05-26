@@ -1,5 +1,6 @@
 @import '../../_variables';
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 .MainContainer {
   font-family: 'Montserrat', sans-serif;
@@ -33,31 +34,44 @@
         height: 300px;
         width: 300px;
         border-radius: 50%;
-        // margin-bottom: 1rem;
-        // margin: 0 3.5rem 1rem;
-        /* box-shadow: 3px 5px white; */
-        /* letter-spacing: 3px; */
-        /* background: url('../../images/CFP-cover.jpg') */
+        @media (min-width: $tablet){
+          height: 500px;
+          width: 500px;
+        }
       }
 
       .MainP {
         font-size: 1.85rem;
         margin: 1rem;
-        color: black;
+        color: $pink;
+        background: #ffffffd1;
         font-weight: 700;
+        font-family: 'Fugaz One', cursive;
+        border-radius: 10px;
+        @media(min-width: $tablet){
+          font-size: 3rem;
+          padding: 1rem;
+        }
       }
 
       .nav-link {
         padding: 0;
+        width: 90%;
+        margin: 0 1rem;
 
         .MainBtn {
           font-size: 1.4rem;
           padding: 1rem 2rem; 
+          width: 100%;
           border: none;
           background: $pink;
           color: black;
           transition: .2s ease-out;
           border-radius: 10px;
+          @media (min-width: $tablet){
+            font-size: 3rem;
+            font-weight: 700;
+          }
         
           &:hover {
             background: #ec5656;

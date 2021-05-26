@@ -45,7 +45,7 @@ const Sidebar = (props) => {
               duration={750}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-65}
               // delay={30}
               onClick={toggle}
             >
@@ -58,7 +58,7 @@ const Sidebar = (props) => {
               duration={750}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-65}
               // delay={30}
               onClick={toggle}
             >
@@ -71,7 +71,7 @@ const Sidebar = (props) => {
               duration={750}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-65}
               // delay={30}
               onClick={toggle}
             >
@@ -84,7 +84,7 @@ const Sidebar = (props) => {
               duration={750}
               spy={true}
               exact="true"
-              offset={-80}
+              offset={-65}
               // delay={30}
               onClick={toggle}
             >
