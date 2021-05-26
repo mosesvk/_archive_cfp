@@ -12,7 +12,7 @@ const Main = () => {
       <div className="MainContent">
         <div className="MainItems">
           <img src={mainImg} className="MainImg" alt="main-img"/>
-          <p className="MainP">For Your Sweet Cravings</p>
+          <p className="MainP">Cravings Satisfied</p>
           <Link
             className='nav-link'
             to="display"
