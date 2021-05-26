@@ -57,10 +57,10 @@
             padding: 10px;
             font-size: 1.5rem;
             font-weight: 700;
-            background: $blue;
+            background: $pink;
   
             &:hover {
-              background: $pink;
+              background: #ec5656;
               transition: 1s;
             }
           }
@@ -83,7 +83,7 @@
       height: auto;
       width: 100%;
       color: black;
-      padding: 50px 0;
+      padding: 15px 0;
 
       h1 {
         font-size: 1.75rem;
@@ -155,10 +155,10 @@
         margin: 15px 0; 
 
         .review-button {
-          background: blue;
+          background: $pink;
           padding: 10px;
           border-radius: 10px;
-          color: white;
+          color: black;
           font-weight: 700;
         }
       }
