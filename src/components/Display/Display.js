@@ -7,23 +7,22 @@ const Display = () => {
   return (
     <div className='display-container' id='display'>
       <div className='display-wrap-top'>
-        <div className='display-text-div'>
-          <h1>CHECKOUT THIS WEEK'S FLAVORS</h1>
-          <a
-            href='https://formfaca.de/sm/WPdC5Gw9f'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button>ORDER HERE</button>
-          </a>
-          {/* <img src={img1}/> */}
-        </div>
-        <div className='display-img-div'>
+        <div className='top-wrapper'>
+          <div className='display-text-div'>
+            <h1>Checkout Our Different Flavors</h1>
+            <a
+              href='https://formfaca.de/sm/WPdC5Gw9f'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button>ORDER HERE</button>
+            </a>
+            {/* <img src={img1}/> */}
+          </div>
         </div>
       </div>
       <div className='display-wrap-mid'>
         <div className='mid-wrapper'>
-          <h1>PLEASE SHOW YOUR SUPPORT</h1>
           <div id="google-review">
             <div id="google-review-wrapper">
               <div class="google-review-wrapper-with-border">
