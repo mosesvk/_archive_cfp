@@ -38,7 +38,7 @@
           height: 500px;
           width: 500px;
         }
-        @media (min-width: $laptopMd){
+        @media (min-width: $laptop){
           height: 750px;
           width: 750px;
         }
@@ -57,7 +57,7 @@
           font-size: 3rem;
           padding: 1rem;
         }
-        @media (min-width: $laptopMd) {
+        @media (min-width: $laptop) {
           font-size: 6rem;
         }
       }
@@ -83,7 +83,7 @@
             font-weight: 700;
             width: 500px;
           }
-          @media (min-width: $laptopMd) {
+          @media (min-width: $laptop) {
             font-size: 6rem;
             width: 900px;
           }
