@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
   height: 100%; 
   background: white;
   box-shadow: -1rem 0 4rem grey;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   top: 0; 
