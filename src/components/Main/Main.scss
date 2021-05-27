@@ -38,6 +38,10 @@
           height: 500px;
           width: 500px;
         }
+        @media (min-width: $laptopMd){
+          height: 750px;
+          width: 750px;
+        }
       }
 
       .MainP {
@@ -53,6 +57,9 @@
           font-size: 3rem;
           padding: 1rem;
         }
+        @media (min-width: $laptopMd) {
+          font-size: 6rem;
+        }
       }
 
       .nav-link {
@@ -62,6 +69,7 @@
 
         .MainBtn {
           font-size: 1.4rem;
+          font-weight: 700;
           padding: 1rem 2rem; 
           width: 100%;
           border: none;
@@ -69,9 +77,15 @@
           color: black;
           transition: .2s ease-out;
           border-radius: 10px;
+          width: 320px;
           @media (min-width: $tablet){
             font-size: 3rem;
             font-weight: 700;
+            width: 500px;
+          }
+          @media (min-width: $laptopMd) {
+            font-size: 6rem;
+            width: 900px;
           }
         
           &:hover {
