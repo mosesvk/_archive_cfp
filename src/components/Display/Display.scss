@@ -22,6 +22,7 @@
       padding: 50px 0;
       display: flex;
       align-items: center;
+      justify-content: center;
 
       .display-img-div {
         display: flex;
@@ -42,6 +43,13 @@
           color: white;
           padding: 0 2rem 2rem;
           font-family: 'Fugaz One', cursive;
+          @media (min-width: $tablet){
+            font-size: 4.5rem;
+            padding-bottom: 4rem;
+          }
+          @media (min-width: $laptopSm){
+            font-size: 6.5rem;
+          }
         }
   
         img {
@@ -64,6 +72,10 @@
               background: #ec5656;
               transition: 1s;
             }
+
+            @media (min-width: $tablet){
+              font-size: 4.5rem;
+            }
           }
         }
       }
@@ -78,6 +90,7 @@
     display:flex;
     justify-content: center;
     text-align: center;
+    text-decoration: brown;
 
     .mid-wrapper {
       background: white;
