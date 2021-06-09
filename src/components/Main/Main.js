@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import {Link} from 'react-scroll'
 import mainImg from '../../images/cfp-cover-1.jpg'
 import './Main.scss'

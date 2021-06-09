@@ -20,7 +20,7 @@ const Pickup = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <img src={imgLL}/>
+                <img src={imgLL} alt='img-ll'/>
               </a>
               <iframe
                 title="iframe"
@@ -51,7 +51,7 @@ const Pickup = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <img src={imgMacey}/>
+                <img src={imgMacey} alt='img-macey'/>
               </a>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Pickup = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                <img src={imgScheel}/>
+                <img src={imgScheel} alt='img-scheel'/>
               </a>
               <iframe
                 title="iframe"

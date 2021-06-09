@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import {FaTimes} from 'react-icons/fa'
+// import { Link } from 'react-router-dom'
+// import {FaTimes} from 'react-icons/fa'
 
 // Main Pink -> #f2b4b4
 // Black -> #393232

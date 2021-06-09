@@ -13,7 +13,7 @@ import './Sidebar.scss'
 const Sidebar = (props) => {
   // console.log(cart)
   
-  const {cart, isOpen, toggle, editItem, total, removeItem, clearCart} = props;
+  const {isOpen, toggle} = props;
 
     return (
       <SidebarContainer isOpen={isOpen}>

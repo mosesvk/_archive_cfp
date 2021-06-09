@@ -1,6 +1,4 @@
 import React from 'react'
-import img1 from '../../images/CFP-counter.jpg'
-import imgLL from '../../images/L&L-logo.png'
 import './Display.scss'
 
 const Display = () => {
