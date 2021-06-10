@@ -1,35 +1,25 @@
 {
-  "name": "react-website-order-list",
+  "name": "frontend",
+  "proxy": "http://127.0.0.1:8000",
   "version": "0.1.0",
   "private": true,
-  "main": "server/index.js",
-  "proxy": "http://localhost:4444",
   "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.3.0",
-    "@types/react-dom": "^17.0.5",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
-    "bootstrap": "^5.0.0",
-    "emailjs-com": "^2.6.4",
-    "express": "^4.17.1",
-    "hashrouter": "^1.1.1",
-    "node": "^16.0.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0",
-    "react-router": "^5.2.0",
+    "react-paypal-button-v2": "^2.6.2",
+    "react-redux": "^7.2.2",
+    "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.2",
-    "react-toastify": "^7.0.3",
-    "sass": "^1.32.12",
-    "styled-components": "^5.3.0",
-    "typescript": "^4.2.4",
-    "web-vitals": "^1.1.0"
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-bootstrap": "^1.6.1"
   }
 }

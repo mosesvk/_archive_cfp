@@ -1,8 +1,8 @@
-const data = [
+const products = [
   {
     '_id': '1',
     'name': 'Beef & Mushroom',
-    'image': '../../public/images/beef-mushroom.jpeg',
+    'image': '../src/images/beef-mushroom.jpeg',
     'description':
       'Beef & Mushroom mixed with delicious cream of mushroom',
     'category': 'Fried Pie: Meat',
@@ -167,4 +167,4 @@ const data = [
   },
 ]
 
-export default data
+export default products

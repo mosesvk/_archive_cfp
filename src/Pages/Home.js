@@ -7,7 +7,7 @@ import About from '../components/About/About'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import Sidebar from '../components/Sidebar/Sidebar'
-import ProductScreen from '../screens/ProductScreen'
+import HomeScreen from '../screens/HomeScreen'
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,9 +28,8 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
       <MainSection />
-      <ProductScreen/>
+      <HomeScreen/>
       <Display modalOpen={modalOpen} toggleModal={toggleModal}/>
-      <ProductScreen/>
       <Pickup/>
       <About />
       <Contact />
