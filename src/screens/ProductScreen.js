@@ -2,11 +2,13 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import data from '../components/data'
 import Product from '../components/Product'
+import img from '../images/barz-chocolate.jpg'
 
 const ProductScreen = () => {
   return (
     <div>
       <h1>Fried Pies On Display</h1>
+      <img src={img} alt='img'/>
       <Row>
         {
           data.map(item => (
