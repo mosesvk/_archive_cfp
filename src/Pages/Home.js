@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import MainSection from '../components/Main/Main'
 import Display from '../components/Display/Display'
-import Pickup from '../components/Pickup/Pickup'
 import About from '../components/About/About'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
@@ -30,7 +29,6 @@ const Home = () => {
       <MainSection />
       <HomeScreen/>
       <Display modalOpen={modalOpen} toggleModal={toggleModal}/>
-      <Pickup/>
       <About />
       <Contact />
       <Footer />
